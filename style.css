@@ -88,7 +88,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -97,7 +97,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eeeeee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,7 +131,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#task-completed label {
+#task-completed label {
     text-decoration: line-through;
     color: #888;
 }
