@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .header {
@@ -45,16 +45,16 @@ body {
 }
 
 ul {
-    margin:0;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
 input,button{
-    outline:none;
+    outline: none;
 }
 
 button {
@@ -63,7 +63,7 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ input[type="text"] {
     border: 1px solid #dddddd;
     background: #ffffff;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     color: #888;
 }
 
@@ -161,14 +161,14 @@ li > input[type="text"] {
 
 /* Edit Task */
 ul li input[type=text] {
-    display:none
+    display: none
 }
 
 ul li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 ul li.edit-mode label {
-    display:none;
+    display: none;
 }
