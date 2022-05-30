@@ -107,6 +107,10 @@ label[for="new-task"] {
     margin: 0 0 20px;
 }
 
+#task-add{
+    margin: 16px 0;
+}
+
 #new-task {
     width: 318px;
 }
